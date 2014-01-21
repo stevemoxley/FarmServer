@@ -11,11 +11,11 @@ namespace FarmServer
 {
     class DatabaseConnection
     {
-        public const string SERVERIP = "71.85.225.23";
+        public const string SERVERIP = "";
         public const string SERVERPORT = "3306";
         public const string USERNAME = "root";
-        public const string PASSWORD = "mtduex";
-        public const string DBNAME = "farmgame";
+        public const string PASSWORD = "";
+        public const string DBNAME = "";
         private static string CONNECTIONSTRING = "";
 
         public DatabaseConnection()
